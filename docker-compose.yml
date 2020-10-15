@@ -8,11 +8,17 @@ services:
     image: 'redis:latest'
   nginx:
 <<<<<<< HEAD
+<<<<<<< HEAD
     depends_on:
       - api
       - client
 =======
 >>>>>>> 2e26135b46affb4aa1acfb2d67fecd4cd9035ff3
+=======
+    depends_on:
+      - api
+      - client
+>>>>>>> aa96c6e (first commit)
     restart: always
     build:
       dockerfile: Dockerfile.dev
