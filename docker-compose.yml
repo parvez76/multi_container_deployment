@@ -7,9 +7,12 @@ services:
   redis:
     image: 'redis:latest'
   nginx:
+<<<<<<< HEAD
     depends_on:
       - api
       - client
+=======
+>>>>>>> 2e26135b46affb4aa1acfb2d67fecd4cd9035ff3
     restart: always
     build:
       dockerfile: Dockerfile.dev
