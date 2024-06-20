@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 FROM node:14.14.0-alpine
 =======
 FROM node:alpine
 >>>>>>> aa96c6e (first commit)
+=======
+FROM node:14.14.0-alpine
+>>>>>>> ecd427b (added aws dockerrun for automation)
 WORKDIR "/app"
 COPY ./package.json ./
 RUN npm install
